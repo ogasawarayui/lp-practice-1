@@ -17,6 +17,9 @@
   background-color: #6ab7eb;
   font-size: 12px;
   padding: 12px 14px;
+  height: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .header {
@@ -48,20 +51,23 @@
   color: #ffffff;
 }
 
-.skills-title {
-  text-align: center;
-}
-
-.pc.png {
-  background-image: url(../img/pc/pc.png);
-  background: #e3f2fd;
-  width: 250px;
-  margin-top: 50px;
-  float: left;
-}
-
 .work {
-  float: right;
+  background: #e3f2fd;
+  padding-top: 50px;
+}
+
+.work-inner {
+  display: flex;
+  justify-content: space-around;
+}
+
+.work-left img {
+  width: 250px;
+}
+
+.work-right {
+  flex-basis: 60%;
+  align-items: center;
 }
 
 .work-title {
@@ -69,6 +75,7 @@
   letter-spacing: 10px;
   margin-top: 20px;
   margin-bottom: 35px;
+  text-align: center;
 }
 
 .work-text {
@@ -82,6 +89,10 @@
   letter-spacing: 10px;
   background: #fff;
   margin-top: 50px;
+}
+
+.skills-title {
+  text-align: center;
 }
 
 .skills_1.png,
@@ -116,7 +127,7 @@
   display: fixed;
   justify-content: center;
   margin-top: 50px;
-  width: 100px;
+  width: 100%;
 }
 
 .cell--table th {
