@@ -95,19 +95,25 @@
   text-align: center;
 }
 
-.skills_1.png,
-.skills_2.png,
-.skills_3.png {
+.section-contents {
+  width;
+  300px:
+    height: 300px;
+}
+
+.skills_1,
+.skills_2,
+.skills_3 {
   margin: auto hspapase="100" vspase="100";
 }
 
-.skills_4.png,
-.skills_5.png,
-.skills_6.png {
+.skills_4,
+.skills_5,
+.skills_6 {
   margin-bottom: 70px;
 }
 
-.skills_5.png {
+.skills_5 {
   margin-left: 100px;
   margin-right: 100px;
 }
