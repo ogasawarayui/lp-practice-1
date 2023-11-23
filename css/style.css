@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+.inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.icon {
+  background: #fff;
+  color: #777;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.contact {
+  color: #ffffff;
+  background-color: #6ab7eb;
+  font-size: 12px;
+  padding: 12px 14px;
+}
+
+.header {
+  display: flex;
+  margin: 15px 150px;
+  /*150pxは感覚*/
+  justify-content: space-between;
+}
+
+.keyvisual {
+  background-image: url(../img/keyvisual/keyvisual.jpg);
+  background-repeat: no-repeat;
+  padding: 400px 0px;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.keyvisual h1 {
+  font-size: 65px;
+  font-weight: 700px;
+  color: #6ab7eb;
+  margin-bottom: 30px;
+}
+
+.keyvisual h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.skills-title {
+  text-align: center;
+}
+
+.pc.png {
+  background-image: url(../img/pc/pc.png);
+  background: #e3f2fd;
+  width: 250px;
+  margin-top: 50px;
+  float: left;
+}
+
+.work {
+  float: right;
+}
+
+.work-title {
+  font-size: 40px;
+  letter-spacing: 10px;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+.work-text {
+  font-size: 15px;
+  line-height: 15px;
+  word-break: break-all;
+}
+
+.skills {
+  font-size: 40px;
+  letter-spacing: 10px;
+  background: #fff;
+  margin-top: 50px;
+}
+
+.skills_1.png,
+.skills_2.png,
+.skills_3.png {
+  margin: auto hspapase="100" vspase="100";
+}
+
+.skills_4.png,
+.skills_5.png,
+.skills_6.png {
+  margin-bottom: 70px;
+}
+
+.skills_5.png {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.plan {
+  background: #d0dfea;
+  padding: 50px;
+}
+
+.plan--title {
+  font-size: 40px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+.cell--table {
+  display: fixed;
+  justify-content: center;
+  margin-top: 50px;
+  width: 100px;
+}
+
+.cell--table th {
+  background: #6ab7eb;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.cell--table th,
+.cell--table td {
+  border-left: 2px solid #fff;
+  padding: 10px;
+}
+
+.cell--table td {
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.cell--table tr {
+  background: #f9f9f9;
+}
+
+.cell--table tr:nth-child(even) {
+  background: #e0efff;
+}
+
+.cell--table tbody tr:last-child {
+  border-top: 1px double #ffffff;
+}
+
+.sns {
+  background: #e3f2fd;
+  color: #8c8c8c;
+  overflow: hidden;
+  font-size: 40px;
+  font-weight: 185px;
+  letter-spacing: 25px;
+  padding: 200px 0px;
+}
+
+.copyright {
+  background: #cfd8dc;
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+}
