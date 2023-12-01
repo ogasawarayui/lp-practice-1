@@ -204,3 +204,115 @@ footer {
   font-size: 10px;
   letter-spacing: 0.5px;
 }
+
+/*SP*/
+@media screen and (max-width: 767px) {
+
+  .contact {
+    display: none;
+  }
+
+  .hamburger_menu {
+    margin: 0 auto;
+  }
+
+  .hamburger {
+    color: #ffffff;
+    background-color: #8c8c8c;
+    width: 40px;
+    height: 32px;
+    position: relative;
+  }
+
+  .hamburger_bar {
+    display: block;
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    background: #8c8c8c;
+
+  }
+
+  .keyvisual {
+    padding: 200px 0px;
+  }
+
+  .keyvisual h1 {
+    font-size: 40px;
+  }
+
+  .keyvisual h2 {
+    font-size: 30px;
+  }
+
+  .work-inner {
+    display: block;
+  }
+
+  .work-left img {
+    background-position: center;
+  }
+
+  .work-right,
+  .work-left {
+    width: 100%;
+    box-sizing: border-box
+  }
+
+  .skills-contener {
+    display: block;
+  }
+
+  .skills:nth-of-type(3n) {
+    margin-bottom: 80px;
+  }
+
+  .cell--table th {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .cell--table td {
+    font-size: 12px;
+  }
+
+  .sns {
+    width: 100%;
+    margin: 50px 15px 50px 15px;
+  }
+
+  .icons {
+    padding: 50px 0px;
+  }
+
+  /*TAB*/
+  @media screen and (max-width: 1199px) {
+
+    .keyvisual {
+      padding: 250px 0px;
+    }
+
+    .work {
+      padding-bottom: 50px;
+    }
+
+    .work-inner {
+      display: block;
+    }
+
+    .work-right,
+    .work-left {
+      width: 100%;
+      box-sizing: border-box
+    }
+
+    .skills-contener {
+      display: block;
+    }
+
+    .skills:nth-of-type(3n) {
+      margin-bottom: 80px;
+    }
+  }
+}
