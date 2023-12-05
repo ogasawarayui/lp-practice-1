@@ -99,6 +99,10 @@ section.skills {
   text-align: center;
 }
 
+.skills {
+  text-align: center;
+}
+
 .skills-contener {
   display: flex;
   flex-wrap: wrap;
@@ -207,6 +211,54 @@ footer {
   letter-spacing: 0.5px;
 }
 
+/*TAB*/
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+
+  .keyvisual {
+    padding: 250px 0px;
+  }
+
+  .work {
+    padding-bottom: 50px;
+  }
+
+  .work-inner {
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .work-left {
+    text-align: center;
+  }
+
+  .work-right,
+  .work-left {
+    width: 100%;
+    box-sizing: border-box
+  }
+
+  .skills:not(:nth-of-type(3n)) {
+    margin-right: 0px;
+  }
+
+  .skills:nth-of-type(n+4) {
+    margin-top: 0px;
+  }
+
+  .skills-contener {
+    display: block;
+  }
+
+  .skills:nth-of-type(3n) {
+    margin-bottom: 80px;
+  }
+
+  .copy {
+    margin-right: 10px;
+  }
+}
+
 /*SP*/
 @media screen and (max-width: 767px) {
 
@@ -216,35 +268,36 @@ footer {
 
   .hamburger_menu {
     position: relative;
-    background: #57a2c7;
+    background: #fff;
     cursor: pointer;
     width: 50px;
-    height: 50px;
+    height: 38px;
     border-radius: 5px;
     display: block;
+    border: solid 1px #cfd8dc;
   }
 
   /*ボタン内側*/
   .hamburger_menu span {
     display: inline-block;
     position: absolute;
-    left: 14px;
+    left: 10px;
     height: 3px;
     border-radius: 2px;
-    background: #fff;
-    width: 45%;
+    background: #cfd8dc;
+    width: 60%;
   }
 
   .hamburger_menu span:nth-of-type(1) {
-    top: 15px;
+    top: 8px;
   }
 
   .hamburger_menu span:nth-of-type(2) {
-    top: 23px;
+    top: 18px;
   }
 
   .hamburger_menu span:nth-of-type(3) {
-    top: 31px;
+    top: 28px;
   }
 
   .keyvisual {
@@ -259,18 +312,32 @@ footer {
     font-size: 30px;
   }
 
-  .work-inner {
-    display: block;
+  .work {
+    padding-bottom: 50px;
   }
 
-  .work-left img {
-    justify-content: center;
+  .work-inner {
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .work-left {
+    text-align: center;
   }
 
   .work-right,
   .work-left {
     width: 100%;
     box-sizing: border-box
+  }
+
+  .skills:not(:nth-of-type(3n)) {
+    margin-right: 0px;
+  }
+
+  .skills:nth-of-type(n+4) {
+    margin-top: 0px;
   }
 
   .skills-contener {
@@ -291,41 +358,25 @@ footer {
   }
 
   .sns {
-    width: 100%;
-    margin: 50px 15px 50px 15px;
+    padding: 50px 0px;
+  }
+
+  .sns-inner {
+    padding: 0px 15px;
+  }
+
+  .sns-icons {
+    display: block;
   }
 
   .icons {
     padding: 50px 0px;
+    text-align: center;
+    width: 100%;
   }
 
-  /*TAB*/
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
-
-    .keyvisual {
-      padding: 250px 0px;
-    }
-
-    .work {
-      padding-bottom: 50px;
-    }
-
-    .work-inner {
-      display: block;
-    }
-
-    .work-right,
-    .work-left {
-      width: 100%;
-      box-sizing: border-box
-    }
-
-    .skills-contener {
-      display: block;
-    }
-
-    .skills:nth-of-type(3n) {
-      margin-bottom: 80px;
-    }
+  .copy {
+    margin-right: 10px;
   }
+
 }
